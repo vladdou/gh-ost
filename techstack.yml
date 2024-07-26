@@ -1,0 +1,197 @@
+repo_name: vladdou/gh-ost
+report_id: f4e81b5f8e81cbed0770bafaa3f15886
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-26T05:33:40+00:00'
+requested_by: web-flow
+provider: github
+branch: master
+detected_tools_count: 15
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/vladdou/gh-ost
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/vladdou/gh-ost/blob/master/localtests/alter-charset-all-dml/create.sql
+  detection_source: localtests/alter-charset-all-dml/create.sql
+  last_updated_by: Shlomi Noach
+  last_updated_on: 2016-09-27 10:57:05.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/vladdou/gh-ost/blob/master/vendor/github.com/siddontang/go-mysql/glide.yaml
+  detection_source: vendor/github.com/siddontang/go-mysql/glide.yaml
+  last_updated_by: Shlomi Noach
+  last_updated_on: 2017-02-12 11:13:54.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/vladdou/gh-ost
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/vladdou/gh-ost/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Shlomi Noach
+  last_updated_on: 2018-02-11 11:33:40.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/vladdou/gh-ost
+  detection_source: Repo Metadata
+- name: check
+  description: Rich testing for the Go language
+  package_url: https://pkg.go.dev/github.com/pingcap/check
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/vladdou/gh-ost/blob/master/vendor/github.com/siddontang/go-mysql/glide.lock
+  detection_source: vendor/github.com/siddontang/go-mysql/glide.lock
+  last_updated_by: Shlomi Noach
+  last_updated_on: 2017-02-12 11:13:54.000000000 Z
+- name: go-mysql
+  description: A powerful mysql toolset with Go
+  package_url: https://pkg.go.dev/github.com/siddontang/go-mysql
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/vladdou/gh-ost/blob/master/vendor/github.com/siddontang/go-mysql/glide.yaml
+  detection_source: vendor/github.com/siddontang/go-mysql/glide.yaml
+  last_updated_by: Shlomi Noach
+  last_updated_on: 2017-02-12 11:13:54.000000000 Z
+- name: go.uuid
+  description: UUID package for Go
+  package_url: https://pkg.go.dev/github.com/satori/go.uuid
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/vladdou/gh-ost/blob/master/vendor/github.com/siddontang/go-mysql/glide.lock
+  detection_source: vendor/github.com/siddontang/go-mysql/glide.lock
+  last_updated_by: Shlomi Noach
+  last_updated_on: 2017-02-12 11:13:54.000000000 Z
+- name: juju/errors
+  description: Common juju errors and functions to annotate errors
+  package_url: https://pkg.go.dev/github.com/juju/errors
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/vladdou/gh-ost/blob/master/vendor/github.com/siddontang/go-mysql/glide.lock
+  detection_source: vendor/github.com/siddontang/go-mysql/glide.lock
+  last_updated_by: Shlomi Noach
+  last_updated_on: 2017-02-12 11:13:54.000000000 Z
+- name: log
+  description: High level log wrapper
+  package_url: https://pkg.go.dev/github.com/ngaut/log
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/vladdou/gh-ost/blob/master/vendor/github.com/siddontang/go-mysql/glide.lock
+  detection_source: vendor/github.com/siddontang/go-mysql/glide.lock
+  last_updated_by: Shlomi Noach
+  last_updated_on: 2017-02-12 11:13:54.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/vladdou/gh-ost/blob/master/vendor/github.com/siddontang/go-mysql/glide.lock
+  detection_source: vendor/github.com/siddontang/go-mysql/glide.lock
+  last_updated_by: Shlomi Noach
+  last_updated_on: 2017-02-12 11:13:54.000000000 Z
+- name: siddontang/go
+  description: My golang lib
+  package_url: https://pkg.go.dev/github.com/siddontang/go
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/vladdou/gh-ost/blob/master/vendor/github.com/siddontang/go-mysql/glide.yaml
+  detection_source: vendor/github.com/siddontang/go-mysql/glide.yaml
+  last_updated_by: Shlomi Noach
+  last_updated_on: 2017-02-12 11:13:54.000000000 Z
+- name: sqlx
+  description: General purpose extensions to golang's database/sql
+  package_url: https://pkg.go.dev/github.com/jmoiron/sqlx
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/vladdou/gh-ost/blob/master/vendor/github.com/siddontang/go-mysql/glide.lock
+  detection_source: vendor/github.com/siddontang/go-mysql/glide.lock
+  last_updated_by: Shlomi Noach
+  last_updated_on: 2017-02-12 11:13:54.000000000 Z
+- name: toml
+  description: TOML parser for Golang with reflection
+  package_url: https://pkg.go.dev/github.com/BurntSushi/toml
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/vladdou/gh-ost/blob/master/vendor/github.com/siddontang/go-mysql/glide.lock
+  detection_source: vendor/github.com/siddontang/go-mysql/glide.lock
+  last_updated_by: Shlomi Noach
+  last_updated_on: 2017-02-12 11:13:54.000000000 Z
